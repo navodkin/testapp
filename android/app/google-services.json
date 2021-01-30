@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "291685046601",
+    "project_id": "sftapp-574bc",
+    "storage_bucket": "sftapp-574bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291685046601:android:b6df6c6fc6e72915862298",
+        "android_client_info": {
+          "package_name": "com.navodkin.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291685046601-lac5q74j5sham3fsq91gjjl8t6iupkfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy4Re4snLRkLgPUaLyrGIeMB-LvNmZHsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291685046601-lac5q74j5sham3fsq91gjjl8t6iupkfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
