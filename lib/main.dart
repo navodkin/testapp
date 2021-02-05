@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screens/wrapper.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:provider/provider.dart';
+import 'package:flutter_application_1/services/auth.dart';
+import 'package:flutter_application_1/models/user.dart';
 
 void main()async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -11,8 +14,11 @@ void main()async{
 class  MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return StreamProvider<TheUser>.value(
+      value: AuthService().user,
+      child: MaterialApp(
       home: Wrapper (),
+    ),
     );
   }
 }
