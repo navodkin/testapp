@@ -10,8 +10,8 @@ final AuthService _auth = AuthService();
     return Scaffold(
       backgroundColor: Colors.brown[50],
       appBar: AppBar(
-        title: Text('Кофейня'),
-        backgroundColor: Colors.brown[400],
+        title: Text('Рыболовный спорт'),
+        backgroundColor: Colors.blue[500],
         elevation: 0.0,
         actions: <Widget>[
           FlatButton.icon(
